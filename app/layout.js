@@ -9,7 +9,7 @@ storyblokInit({
   apiOptions: {
     region: "us",
   },
-  accessToken: "{{YOUR_TOKEN}}",
+  accessToken: "bvV8xz48QStXHSbihdRNNQtt",
   use: [apiPlugin],
 });
 
@@ -19,6 +19,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
   return (
     <StoryblokProvider>
          <html lang="en">

@@ -18,8 +18,9 @@ storyblokInit({
   apiOptions: {
     region: "us",
   },
-  accessToken: "{{YOUR_TOKEN}}",
+  accessToken: "bvV8xz48QStXHSbihdRNNQtt",
   use: [apiPlugin],
+  components:components
 });
  
 export default function StoryblokProvider({ children }) {
